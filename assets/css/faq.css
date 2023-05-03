@@ -1,0 +1,136 @@
+/* FAQ */
+
+.joindiscord {
+    margin: 0 10px 10px 0;
+    font-weight: 500;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 8px;
+	transition: 0.3s;
+	color: #ce9916;
+	border: 2px solid #ce9916;
+	background: #14121B;
+	
+}
+
+.questions {
+	text-align: center; 
+	padding-top: 34px;
+	color: white
+}
+
+ .joindiscord:hover{
+	background-color: #ce9916; 
+	color: #14121B;
+	border: 2px solid #ce9916;
+	transition: 0.3s;
+}
+
+.section__faq{
+    padding: 5% 5% 100px;
+}
+
+.faq__title{
+    font-weight: bold;
+    font-size: 44px;
+    color: var(--colorMain);
+	text-align: center;
+}
+
+.faq__description{
+    color: var(--colorText);
+    width: 100%;
+    font-weight: normal;
+    font-size: 15px;
+    padding-top: 10px;
+	text-align: center;
+}
+
+.faq__cards{
+    margin-top: 50px!important;
+	width: 90%;
+	margin: auto;
+}
+
+.faq__card{
+    width: 90%;
+    background-color: var(--backgroundSecond);
+    padding: 4% 5%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-radius: 8px;
+	border: 2px solid #181621;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.faq__card:hover{
+	border: 2px solid #ce9916;
+	transition: 0.3s;
+}
+
+.faq__card__text__title{
+    color: var(--colorMain);
+}
+
+.faq__card__description{
+    color: var(--colorText);
+    font-weight: normal;
+    font-size: 14px;
+    width: 90%;
+}
+
+.faq__card__content{
+    padding: 15px 2% 50px;
+    color: var(--colorText);
+    font-weight: normal;
+    font-size: 15px;
+	text-align: center;
+}
+
+@media only screen and (max-width: 1100px) {
+    .section__faq{
+        margin-top: -20px;
+        padding: 60px 5% 80px;
+    }
+
+    .faq__title{
+        font-size: 38px;
+	text-align: center;
+    }
+
+    .faq__description{
+        width: 100%;
+        font-size: 14px;
+        padding-top: 5px;
+		text-align: center;
+    }
+
+    .faq__card{
+        width: 90%;
+        background-color: var(--backgroundSecond);
+        padding: 6% 5%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .faq__card__content{
+        padding: 15px 2% 50px;
+    }
+
+    .faq__card__description{
+        width: 80%;
+    }
+
+    .faq__card__plus{
+        margin-right: 15px;
+    }
+    .joindiscord {
+        padding-top: 10px;
+    }
+
+}
